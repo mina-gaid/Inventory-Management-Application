@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="E-commerce-ncirl" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Mina\\Documents\\Visual\ Studio\ 2015\\Projects\\E-commerce\\E-commerce\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Mina\\Documents\\Visual\ Studio\ 2015\\Projects\\E-commerce\\E-commerce\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="EcommerceContext-Web.config Connection String" description="" value="Data Source=tcp:kptx7hreki.database.windows.net,1433;Initial Catalog=EcommerceDB;User Id=x13729979@kptx7hreki;Password=jj2246MM" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Mina\\Documents\\Visual\ Studio\ 2015\\Projects\\E-commerce\\E-commerce\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='EcommerceContext']/@connectionString" />
+  </parameter>
+</parameters>

@@ -1,0 +1,52 @@
+﻿/* Styling for the body */
+.body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Setting background color for nav bar on hover */
+.nav > li:hover {
+    background-color: #1B9BFF;
+    color: #fff;
+}
+
+/* Setting background color the jumbotron */
+.jumbotron {
+    background-color: #ffffff;
+    color: #696969;
+    text-align: center;
+}
+
+/* Remove dotted border outline */
+.a {
+  outline:none !important;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+}
+
+/* Align content to the center*/
+.row {
+    align-content: center;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
